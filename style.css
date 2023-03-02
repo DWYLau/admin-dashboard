@@ -1,0 +1,58 @@
+.container {
+  font-family: sans-serif;
+  display: grid;
+  grid-template-columns: 1fr 5fr;
+}
+
+.sidebar {
+  background-color: lightblue;
+  display: grid;
+  grid-template-rows: 0.2fr 0.5fr 0.5fr;
+  grid-gap: 50px;
+  height: 100vh;
+}
+
+.sidebar .top {
+  display: flex;
+}
+
+.sidebar .center {
+  display: grid;
+  grid-template-rows: repeat(6, 60px);
+}
+
+.sidebar .bottom {
+  display: grid;
+  grid-template-rows: repeat(3, 60px);
+}
+
+.sidebar .logo {
+  width: 40px;
+  height: 40px;
+  margin: 10px;
+  padding: 5px;
+}
+
+.sidebar h2 {
+  font-size: 2em;
+  margin-top: 15px;
+  padding: 5px;
+}
+
+.sidebar .icon {
+  width: 25px;
+  height: 25px;
+  margin: 10px;
+  padding: 5px;
+}
+
+.sidebar p {
+  font-size: 1.5em;
+  margin: 10px 0 0 0;
+  padding: 5px;
+}
+
+.side-link {
+  display: flex;
+  height: 20px;
+}
