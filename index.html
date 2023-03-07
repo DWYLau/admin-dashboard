@@ -1,206 +1,256 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="reset.css" />
+    <title>Admin Dashboard</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="reset.css">
-  <title>Admin Dashboard</title>
-</head>
+  <body>
+    <div class="container">
+      <div class="sidebar">
+        <div class="top">
+          <img class="logo" src="icons/dashboard.svg" alt="dashboard" />
+          <h2>Dashboard</h2>
+        </div>
 
-<body>
-  <div class="container">
-    <div class="sidebar">
-      <div class="top">
-        <img class="logo" src="icons/dashboard.svg" alt="dashboard">
-        <h2>Dashboard</h2>
+        <div class="center">
+          <div class="side-link">
+            <img class="icon" src="icons/home.svg" alt="home" />
+            <a href="#">Home</a>
+          </div>
+          <div class="side-link">
+            <img
+              class="icon"
+              src="icons/card-account-details.svg"
+              alt="profile"
+            />
+            <a href="#">Profile</a>
+          </div>
+          <div class="side-link">
+            <img class="icon" src="icons/forum.svg" alt="message" />
+            <a href="#">Messages</a>
+          </div>
+          <div class="side-link">
+            <img class="icon" src="icons/history.svg" alt="history" />
+            <a href="#">History</a>
+          </div>
+          <div class="side-link">
+            <img class="icon" src="icons/file-multiple.svg" alt="tasks" />
+            <a href="#">Tasks</a>
+          </div>
+          <div class="side-link">
+            <img class="icon" src="icons/account-group.svg" alt="communities" />
+            <a href="#">Communities</a>
+          </div>
+        </div>
+
+        <div class="bottom">
+          <div class="side-link">
+            <img class="icon" src="icons/cog.svg" alt="settings" />
+            <a href="#">Settings</a>
+          </div>
+          <div class="side-link">
+            <img class="icon" src="icons/help-box.svg" alt="support" />
+            <a href="#">Support</a>
+          </div>
+          <div class="side-link">
+            <img class="icon" src="icons/security.svg" alt="privacy" />
+            <a href="#">Privacy</a>
+          </div>
+        </div>
       </div>
 
-      <div class="center">
-        <div class="side-link">
-          <img class="icon" src="icons/home.svg" alt="home">
-          <a href="#">Home</a>
+      <div class="header">
+        <div class="search-bar">
+          <img class="icon" src="icons/search-web.svg" alt="search" />
+          <input type="search" />
         </div>
-        <div class="side-link">
-          <img class="icon" src="icons/card-account-details.svg" alt="profile">
-          <a href="#">Profile</a>
+
+        <div class="profile">
+          <img class="icon" src="icons/bell.svg" alt="notifications" />
+          <img class="avatar" src="icons/cat.png" alt="avatar" />
+          <a href="#">Derek Lau</a>
         </div>
-        <div class="side-link">
-          <img class="icon" src="icons/forum.svg" alt="message">
-          <a href="#">Messages</a>
+
+        <div class="welcome-section">
+          <img class="avatar" src="icons/cat.png" alt="avatar" />
+          <div class="message">
+            <p>Hi there,</p>
+            <h1>Derek Lau (@derek)</h1>
+          </div>
         </div>
-        <div class="side-link">
-          <img class="icon" src="icons/history.svg" alt="history">
-          <a href="#">History</a>
-        </div>
-        <div class="side-link">
-          <img class="icon" src="icons/file-multiple.svg" alt="tasks">
-          <a href="#">Tasks</a>
-        </div>
-        <div class="side-link">
-          <img class="icon" src="icons/account-group.svg" alt="communities">
-          <a href="#">Communities</a>
+
+        <div class="button-section">
+          <button>New</button>
+          <button>Upload</button>
+          <button>Share</button>
         </div>
       </div>
 
-      <div class="bottom">
-        <div class="side-link">
-          <img class="icon" src="icons/cog.svg" alt="settings">
-          <a href="#">Settings</a>
+      <div class="content">
+        <div class="article">
+          <h1>Your Projects</h1>
+          <div class="card">
+            <p class="title">Super Cool Project</p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud...
+            </p>
+            <div class="icon-box">
+              <img class="icon" src="icons/star-plus-outline.svg" alt="star" />
+              <img class="icon" src="icons/eye-plus-outline.svg" alt="eye" />
+              <img
+                class="icon"
+                src="icons/share-variant-outline.svg"
+                alt="share"
+              />
+            </div>
+          </div>
+          <div class="card">
+            <p class="title">Less Cool Project</p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud...
+            </p>
+            <div class="icon-box">
+              <img class="icon" src="icons/star-plus-outline.svg" alt="star" />
+              <img class="icon" src="icons/eye-plus-outline.svg" alt="eye" />
+              <img
+                class="icon"
+                src="icons/share-variant-outline.svg"
+                alt="share"
+              />
+            </div>
+          </div>
+          <div class="card">
+            <p class="title">Impossible App</p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud...
+            </p>
+            <div class="icon-box">
+              <img class="icon" src="icons/star-plus-outline.svg" alt="star" />
+              <img class="icon" src="icons/eye-plus-outline.svg" alt="eye" />
+              <img
+                class="icon"
+                src="icons/share-variant-outline.svg"
+                alt="share"
+              />
+            </div>
+          </div>
+          <div class="card">
+            <p class="title">Easy Peasy App</p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud...
+            </p>
+            <div class="icon-box">
+              <img class="icon" src="icons/star-plus-outline.svg" alt="star" />
+              <img class="icon" src="icons/eye-plus-outline.svg" alt="eye" />
+              <img
+                class="icon"
+                src="icons/share-variant-outline.svg"
+                alt="share"
+              />
+            </div>
+          </div>
+          <div class="card">
+            <p class="title">Ad Blocker</p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud...
+            </p>
+            <div class="icon-box">
+              <img class="icon" src="icons/star-plus-outline.svg" alt="star" />
+              <img class="icon" src="icons/eye-plus-outline.svg" alt="eye" />
+              <img
+                class="icon"
+                src="icons/share-variant-outline.svg"
+                alt="share"
+              />
+            </div>
+          </div>
+          <div class="card">
+            <p class="title">Money Maker</p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud...
+            </p>
+            <div class="icon-box">
+              <img class="icon" src="icons/star-plus-outline.svg" alt="star" />
+              <img class="icon" src="icons/eye-plus-outline.svg" alt="eye" />
+              <img
+                class="icon"
+                src="icons/share-variant-outline.svg"
+                alt="share"
+              />
+            </div>
+          </div>
         </div>
-        <div class="side-link">
-          <img class="icon" src="icons/help-box.svg" alt="support">
-          <a href="#">Support</a>
-        </div>
-        <div class="side-link">
-          <img class="icon" src="icons/security.svg" alt="privacy">
-          <a href="#">Privacy</a>
+
+        <div class="announcement">
+          <h1>Announcements</h1>
+          <div class="card">
+            <p class="title">Super Cool Project</p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud...
+            </p>
+          </div>
+          <div class="card">
+            <p class="title">Less Cool Project</p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud...
+            </p>
+          </div>
+          <div class="card">
+            <p class="title">Impossible App</p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud...
+            </p>
+          </div>
+
+          <h1>Trending</h1>
+          <div class="box">
+            <img class="icon" src="icons/crab.png" alt="avatar" />
+            <div class="text-box">
+              <p>@tegan</p>
+              <p>World Peace Builder</p>
+            </div>
+          </div>
+
+          <div class="box">
+            <img class="icon" src="icons/hen.png" alt="avatar" />
+            <div class="text-box">
+              <p>@morgan</p>
+              <p>Super Cool Project</p>
+            </div>
+          </div>
+
+          <div class="box">
+            <img class="icon" src="icons/turtle.png" alt="avatar" />
+            <div class="text-box">
+              <p>@kendall</p>
+              <p>Life Changing App</p>
+            </div>
+          </div>
         </div>
       </div>
     </div>
-
-
-    <div class="header">
-      <div class="search-bar">
-        <img class="icon" src="icons/search-web.svg" alt="search">
-        <input type="search">
-      </div>
-
-      <div class="profile">
-        <img class="icon" src="icons/bell.svg" alt="notifications">
-        <img class="avatar" src="icons/cat.png" alt="avatar">
-        <a href="#">Derek Lau</a>
-      </div>
-
-      <div class="welcome-section">
-        <img class="avatar" src="icons/cat.png" alt="avatar">
-        <div class="message">
-          <p>Hi there,</p>
-          <h1>Derek Lau (@derek)</h1>
-        </div>
-      </div>
-
-      <div class="button-section">
-        <button>New</button>
-        <button>Upload</button>
-        <button>Share</button>
-      </div>
-    </div>
-
-    <div class="content">
-      <div class="article">
-        <h1>Your Projects</h1>
-        <div class="card">
-          <p class="title">Super Cool Project</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud...</p>
-          <div class="icon-box">
-            <img class="icon" src="icons/star-plus-outline.svg" alt="star">
-            <img class="icon" src="icons/eye-plus-outline.svg" alt="eye">
-            <img class="icon" src="icons/share-variant-outline.svg" alt="share">
-          </div>
-        </div>
-        <div class="card">
-          <p class="title">Less Cool Project</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud...</p>
-          <div class="icon-box">
-            <img class="icon" src="icons/star-plus-outline.svg" alt="star">
-            <img class="icon" src="icons/eye-plus-outline.svg" alt="eye">
-            <img class="icon" src="icons/share-variant-outline.svg" alt="share">
-          </div>
-        </div>
-        <div class="card">
-          <p class="title">Impossible App</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud...</p>
-          <div class="icon-box">
-            <img class="icon" src="icons/star-plus-outline.svg" alt="star">
-            <img class="icon" src="icons/eye-plus-outline.svg" alt="eye">
-            <img class="icon" src="icons/share-variant-outline.svg" alt="share">
-          </div>
-        </div>
-        <div class="card">
-          <p class="title">Easy Peasy App</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud...</p>
-          <div class="icon-box">
-            <img class="icon" src="icons/star-plus-outline.svg" alt="star">
-            <img class="icon" src="icons/eye-plus-outline.svg" alt="eye">
-            <img class="icon" src="icons/share-variant-outline.svg" alt="share">
-          </div>
-        </div>
-        <div class="card">
-          <p class="title">Ad Blocker</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud...</p>
-          <div class="icon-box">
-            <img class="icon" src="icons/star-plus-outline.svg" alt="star">
-            <img class="icon" src="icons/eye-plus-outline.svg" alt="eye">
-            <img class="icon" src="icons/share-variant-outline.svg" alt="share">
-          </div>
-        </div>
-        <div class="card">
-          <p class="title">Money Maker</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud...</p>
-          <div class="icon-box">
-            <img class="icon" src="icons/star-plus-outline.svg" alt="star">
-            <img class="icon" src="icons/eye-plus-outline.svg" alt="eye">
-            <img class="icon" src="icons/share-variant-outline.svg" alt="share">
-          </div>
-        </div>
-      </div>
-
-      <div class="announcement">
-        <h1>Announcements</h1>
-        <div class="card">
-          <p class="title">Super Cool Project</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud...</p>
-        </div>
-        <div class="card">
-          <p class="title">Less Cool Project</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud...</p>
-        </div>
-        <div class="card">
-          <p class="title">Impossible App</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud...</p>
-        </div>
-
-        <h1>Trending</h1>
-        <div class="box">
-          <img class="icon" src="icons/crab.png" alt="avatar">
-          <div class="text-box">
-            <p>@tegan</p>
-            <p>World Peace Builder</p>
-          </div>
-        </div>
-
-        <div class="box">
-          <img class="icon" src="icons/hen.png" alt="avatar">
-          <div class="text-box">
-            <p>@morgan</p>
-            <p>Super Cool Project</p>
-          </div>
-        </div>
-
-        <div class="box">
-          <img class="icon" src="icons/turtle.png" alt="avatar">
-          <div class="text-box">
-            <p>@kendall</p>
-            <p>Life Changing App</p>
-          </div>
-        </div>
-      </div>
-    </div>
-
-  </div>
-
-</body>
-
+  </body>
 </html>
