@@ -22,6 +22,7 @@ Demo admin dashboard for The Odin Project.
 * Cat icons created by Vectors Market - Flaticon
 * Chicken icons created by Freepik - Flaticon
 * Ecosystem icons created by Yogi Aprelliyanto - Flaticon
+* Turtle icons created by Freepik - Flaticon
 
 ## Live Preview
 

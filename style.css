@@ -7,7 +7,7 @@
   font-family: Roboto, sans-serif;
   display: grid;
   grid-template-columns: 1fr 5fr;
-  grid-template-rows: 155px 4fr;
+  grid-template-rows: 170px 4fr;
 }
 
 .sidebar {
@@ -70,7 +70,7 @@
   display: grid;
   grid-template-columns: 3fr 2fr;
   grid-template-rows: 1fr 1fr;
-  height: fit-content;
+  height: auto;
   margin-top: 5px;
   margin-left: 30px;
   background-color: rgb(255, 255, 255);
@@ -78,8 +78,8 @@
 
 .search-bar .icon,
 .profile .icon {
-  width: 35px;
-  height: 35px;
+  width: 40px;
+  height: 40px;
   margin-right: 20px;
   margin-left: 15px;
 }
@@ -113,8 +113,8 @@
 .profile>.avatar {
   margin-top: 5px;
   margin: 10px;
-  height: 40px;
-  width: 40px;
+  height: 45px;
+  width: 45px;
 }
 
 .profile>a {
@@ -130,23 +130,27 @@
 }
 
 .welcome-section>.avatar {
-  height: 50px;
-  width: 50px;
+  height: 60px;
+  width: 60px;
   margin-left: 25px;
-  margin-top: 10px;
+  margin-top: 5px;
   padding-right: 5px;
 }
 
 .message {
-  margin-left: 20px;
+  margin-left: 10px;
   padding: 10px;
   line-height: 1.0em;
+}
+
+.message>p {
+  font-size: 1.3em;
 }
 
 .message>h1 {
   margin-top: 10px;
   font-weight: bold;
-  font-size: 1.3em;
+  font-size: 1.7em;
 }
 
 .button-section {
@@ -168,7 +172,7 @@
   grid-template-rows: 40px 190px 190px auto;
   grid-auto-flow: column;
   background: linear-gradient(to bottom, #bdc3c7, #8b8d90);
-  gap: 15px;
+  gap: 20px;
 }
 
 .article>h1,
@@ -242,7 +246,7 @@
 
 .announcement .box {
   display: flex;
-  height: fit-content;
+  height: 50px;
   width: 300px;
   background-color: white;
   padding: 10px;
@@ -252,8 +256,8 @@
 }
 
 .announcement .icon {
-  height: 50px;
-  width: 50px;
+  height: 45px;
+  width: 45px;
   margin-left: 10px;
 }
 
@@ -263,8 +267,8 @@
 }
 
 button {
-  height: 35px;
-  width: 70px;
+  height: 50px;
+  width: 100px;
   margin: 10px;
   margin-right: 25px;
   padding: 10px;
@@ -272,7 +276,7 @@ button {
   background-color: rgb(172, 216, 255);
   border: none;
   border-radius: 1.5em;
-  font-size: 1em;
+  font-size: 1.3em;
   transition: all 0.3s;
 }
 
