@@ -178,7 +178,7 @@
 .article > h1,
 .announcement > h1 {
   font-weight: bold;
-  font-size: 1.3em;
+  font-size: 1.4em;
   padding: 10px;
   margin: 10px;
   margin-left: 20px;
@@ -190,8 +190,8 @@
 }
 
 .article .card {
-  height: 170px;
-  width: 400px;
+  height: 180px;
+  width: 450px;
   text-align: left;
   color: black;
   background-color: rgb(240, 240, 240);
@@ -205,14 +205,22 @@
 
 .icon-box {
   position: relative;
-  left: 250px;
-  top: 20px;
+  left: 300px;
+  top: 25px;
 }
 
 .icon-box .icon {
   height: 30px;
   width: 30px;
   margin-right: 20px;
+}
+
+.article .title {
+  font-size: 1.3em;
+}
+
+.article p {
+  font-size: 1.3em;
 }
 
 .article .title,
