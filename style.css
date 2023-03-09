@@ -140,7 +140,7 @@
 .message {
   margin-left: 10px;
   padding: 10px;
-  line-height: 1em;
+  line-height: 1.2em;
 }
 
 .message > p {
@@ -150,7 +150,7 @@
 .message > h1 {
   margin-top: 10px;
   font-weight: bold;
-  font-size: 1.7rem;
+  font-size: 1.6rem;
 }
 
 .button-section {
@@ -290,4 +290,10 @@ button {
 button:hover {
   cursor: pointer;
   background-color: yellow;
+}
+
+@media (-webkit-device-pixel-ratio: 1.25) {
+  * {
+    zoom: 0.8;
+  }
 }
