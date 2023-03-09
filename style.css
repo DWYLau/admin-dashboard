@@ -41,7 +41,7 @@
 }
 
 .sidebar h2 {
-  font-size: 2em;
+  font-size: 2rem;
   margin-top: 15px;
   padding: 5px;
 }
@@ -54,7 +54,7 @@
 }
 
 .sidebar a {
-  font-size: 1.5em;
+  font-size: 1.5rem;
   margin: 10px 0 0 0;
   padding: 5px;
   text-decoration: none;
@@ -99,7 +99,7 @@
   border: 1.5px solid darkgray;
   background-color: rgb(226, 226, 226);
   box-shadow: 0 0 10px 3px rgba(0, 0, 0, 0.03);
-  font-size: 1em;
+  font-size: 1rem;
 }
 
 .profile {
@@ -118,7 +118,7 @@
 }
 
 .profile > a {
-  font-size: 1.5em;
+  font-size: 1.5rem;
   padding: 10px;
   margin: 10px;
   text-decoration: none;
@@ -144,13 +144,13 @@
 }
 
 .message > p {
-  font-size: 1.3em;
+  font-size: 1.3rem;
 }
 
 .message > h1 {
   margin-top: 10px;
   font-weight: bold;
-  font-size: 1.7em;
+  font-size: 1.7rem;
 }
 
 .button-section {
@@ -178,7 +178,7 @@
 .article > h1,
 .announcement > h1 {
   font-weight: bold;
-  font-size: 1.4em;
+  font-size: 1.4rem;
   padding: 10px;
   margin: 10px;
   margin-left: 20px;
@@ -216,11 +216,11 @@
 }
 
 .article .title {
-  font-size: 1.3em;
+  font-size: 1.3rem;
 }
 
 .article p {
-  font-size: 1.3em;
+  font-size: 1.3rem;
 }
 
 .article .title,
@@ -283,7 +283,7 @@ button {
   background-color: rgb(172, 216, 255);
   border: none;
   border-radius: 1.5em;
-  font-size: 1.3em;
+  font-size: 1.3rem;
   transition: all 0.3s;
 }
 
